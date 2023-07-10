@@ -1,0 +1,23 @@
+/* styles.css */
+
+@media (max-width: 768px) {
+  /* Styles for screens with a maximum width of 768px (e.g., mobile screens) */
+
+  /* Update the layout */
+  .layout {
+    flex-direction: column;
+  }
+
+  /* Update the ATMCard and ATMEmpty components */
+  .atm-card {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .atm-empty {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,137 @@
+.confirmation-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: #ccc;
+  }
+  
+  .confirmation-page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 90%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    background-color: #e4edf0;
+  }
+  
+  .confirmation-page-first-structure {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  .confirmation-page-second-structure {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  .confirmation-page-section {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .confirmation-page-section-content {
+    border: 1px solid red;
+    padding: 10px;
+  }
+  
+  .confirmation-page-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .confirmation-page-message {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .confirmation-page-message-title {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .confirmation-page-message-text {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .confirmation-page-continue-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .confirmation-page-button {
+    width: 60%;
+    height: 20%;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    background-color: #27113a;
+  }
+  
+  /* Media Queries */
+  @media (min-width: 561px) {
+    .confirmation-page-content {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .confirmation-page-first-structure {
+      flex-direction: column;
+      height: 50%;
+    }
+  
+    .confirmation-page-second-structure {
+      flex-direction: column;
+      height: 50%;
+    }
+  
+    .confirmation-page-section {
+      width: 100%;
+    }
+  
+    .confirmation-page-icon {
+      margin-bottom: 20px;
+    }
+  
+    .confirmation-page-message-title {
+      font-size: 18px;
+    }
+  
+    .confirmation-page-message-text {
+      font-size: 14px;
+    }
+  
+    .confirmation-page-button {
+      width: 100%;
+      height: 40px;
+      font-size: medium;
+    }
+  }
+  
