@@ -2,7 +2,6 @@ import React from "react";
 import ATMEmpty from "./Atm";
 import ATMCard from "./Atmcard";
 import Details from "./Atmdetails";
-import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 const ConfirmationPage = () => {
